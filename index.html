@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <title>rick button</title>
+        <style>
+            /* http://meyerweb.com/eric/tools/css/reset/ 
+            v2.0 | 20110126
+            License: none (public domain)
+            */
+
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed, 
+            figure, figcaption, footer, header, hgroup, 
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset for older browsers */
+            article, aside, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+            body {
+                line-height: 1;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            blockquote, q {
+                quotes: none;
+            }
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+
+            @font-face {
+                font-family: 'Merriweather';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: local('Merriweather Regular'), local('Merriweather-Regular'), url(Merriweather-Regular.woff) format('woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            body {
+                margin-left: 25px;
+                margin-top: 25px;
+                max-width: 950px;
+                font-size: 18px;
+                font-family: 'Merriweather', serif;
+            }
+
+            a {
+                color: rgb(0,0,238);
+            }
+
+            div.title > h1,h2,h3,h4 {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            div.section {
+                margin-top: 50px;
+            }
+
+            div.section > p,ul {
+                margin-top: 10px;
+            }
+
+            b {
+                font-weight: bold;
+            }
+
+            ul > li {
+                margin-top: 10px;
+            }
+
+            ul > li > * {
+                display: block;
+            }
+            ul > li > span {
+                margin-left: 10px;
+            }
+
+            span.pgp {
+                font-family: 'Lucida Console', 'Monaco', monospace;
+                font-size: 18px;
+                margin-top: 20px;
+            }
+
+            span.contact-type {
+                display: inline-block;
+                width: 90px;
+            }
+
+            h1 {
+                font-size: 3em;
+            }
+            h2 {
+                font-size: 2.5em;
+            }
+            h3 {
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            <h1>rick button</h1>
+        </div>
+
+        <div class="section">
+            <h2>about me</h2>
+            <p>
+                i write software for a living, and currently work as a <b>senior software engineer</b> at 
+                <b><a href="https://bloomberg.com">bloomberg</a></b> in <b>nyc</b>. 
+            </p>
+            <p>
+                i like working on application frameworks, compilers, interpreters, and emulators.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>projects</h2>
+            <p>
+                some of my most recent personal projects.
+            </p>
+            <ul>
+                 <li>
+                    <a href="https://workspacer.org">workspacer</a>
+                    <span>tiling window manager for Windows, a la <a href="https://xmonad.org">xmonad.</a></span>
+                </li>
+                <li>
+                    <a href="https://github.com/rickbutton/loki">loki</a>
+                    <span>scheme => webassembly compiler.</span>
+                </li>
+                <li>
+                    <a href="https://github.com/rickbutton/z100emu">z100emu</a>
+                    <span>Zenith Z-100 emulator, written in C#. </span>
+                </li>
+                <li>
+                    <a href="https://github.com/rickbutton/Scheme.NET">Scheme.NET</a>
+                    <span>R5RS scheme intepreter and virtual machine for .NET.</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>contact</h2>
+            <p><span class="contact-type">email:</span> <b id="addr">if you can read this you have js turned off.</b></p>
+            <p><span class="contact-type">keybase:</span> <a href="https://keybase.io/rickbutton">keybase.io/rickbutton</a></p>
+            <p><span class="contact-type">github:</span> <a href="https://github.com/rickbutton">github.com/rickbutton</a></p>
+            <p><span class="contact-type">twitter:</span> <a href="https://twitter.com/rickbutton">twitter.com/rickbutton</a></p>
+            <p><span class="contact-type">pgp:</span> <a href="public.asc.txt"><span class="pgp">0A240E3AA2437079</span></a></p>
+            <br/>
+            <p>
+                this file is signed with my pgp key. check out the signature <a href="index.html.asc">here.</a>
+            </p>
+        </div>
+        <div class="section">
+            this file was last updated on September 16th, 2019 at 8:25 PM EST
+        </div>
+        <script>
+            // this isn't here to stop you,
+            // but instead to stop the robots
+            document.addEventListener("DOMContentLoaded", function(event) { 
+                var ele = document.getElementById("addr");
+                ele.innerText = String.fromCharCode.apply(null, [114,105,99,107,64,98,117,116,116,111,110,46,100,101,118]);
+            });
+        </script>
+    </body>
+</html>

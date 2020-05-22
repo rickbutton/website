@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rickbutton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://button.dev
+  * I am rickbutton (https://keybase.io/rickbutton) on keybase.
+  * I have a public key ASB3QyQxB9YPbSloVgrBrbf8sT-usiZ6f49P3c-p_TN79wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207743243107d60f6d2968560ac1adb7fcb13faeb2267a7f8f4fddcfa9fd337bf70a",
+      "host": "keybase.io",
+      "kid": "01207743243107d60f6d2968560ac1adb7fcb13faeb2267a7f8f4fddcfa9fd337bf70a",
+      "uid": "2fe3879153b4d7d0d1882b1fd461dc19",
+      "username": "rickbutton"
+    },
+    "merkle_root": {
+      "ctime": 1558249230,
+      "hash": "761cd2880c1fab52ec60ff156991de821c938f070d2041dfe06b4afeaa031a3fbf035937509e4e3a51f622984081a4e15c4ef7ce36daec402f3400296c31a3e7",
+      "hash_meta": "af4db4a660815f0a126469e69d0d23f8433165837f53e0615795e9672a5b98a3",
+      "seqno": 5402619
+    },
+    "service": {
+      "entropy": "WE0lqFJXt7nE39mmOAKxQuX7",
+      "hostname": "button.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1558249302,
+  "expire_in": 504576000,
+  "prev": "90647f10b0fc4b88dc099b4a3175d78fd63317a13e19bad1b924cedd7e00d2d3",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgd0MkMQfWD20paFYKwa23/LE/rrImen+PT93Pqf0ze/cKp3BheWxvYWTESpcCH8QgkGR/ELD8S4jcCZtKMXXXj9YzF6E+GbrRuSTO3X4A0tPEIH+ZAKazGZyQVBeH12EPz6auHs6Tn2k5qRDYpoaaHT/MAgHCo3NpZ8RAS/Ol22R4hwqsHUaAdy6fAyctAbS3Qleex3rFiH2mO3W+636rvIv+4yecQnW8q+n4MW/JZiU48nzGOAQmV0RRBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIElgdcGR4QtLAzRVFzcwpJtv0CUCQgKHg0EkUYz/UEbuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rickbutton
+
+==================================================================
